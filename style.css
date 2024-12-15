@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Gothic", sans-serif;
+}
+body {
+  background-color: #272727;
+}
+img[alt="ytb-logo"] {
+   width: 5%;
+}
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 30px 0 30px 80px;
+}
+.para-logo {
+  color: #fff;
+  font-size: 35px;
+}
+video {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  border-radius: 15px;
+  height: 70%;
+  z-index: 1;
+}
+.truc {
+  position: absolute;
+  top: 87%;
+  left: 5%;
+  color: #fff;
+}
+.title-video {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.machin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+.wow {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.name-icon {
+  font-family: "Roboto", sans-serif;
+}
+.subscribers-icon {
+  font-family: "Roboto", sans-serif;
+}
+.subs {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  padding: 0 16px;
+  height: 36px;
+  font-size: 14px;
+  line-height: 36px;
+  border-radius: 18px;
+  color: #0f0f0f;
+  background: #f1f1f1;
+  border: none;
+  margin-left: 35px;
+}
+.play {
+  cursor: pointer;
+  position: absolute;
+  top: 78%;
+  left: 7.5%;
+  z-index: 2;
+  font-size: 2.5rem;
+  background-color: #0f0f0f00;
+  border: none;
+}
+.range {
+  position: absolute;
+  top: 80%;
+  left: 12.8%;
+  z-index: 2;
+  width: 45%;
+}
+.plus {
+  cursor: pointer;
+  position: absolute;
+  top: 78%;
+  left: 10%;
+  z-index: 2;
+  font-size: 2.5rem;
+  background-color: #0f0f0f00;
+  border: none;
+}
+.minus {
+  cursor: pointer;
+  position: absolute;
+  top: 78%;
+  left: 5%;
+  z-index: 2;
+  font-size: 2.5rem;
+  background-color: #0f0f0f00;
+  border: none;
+}
