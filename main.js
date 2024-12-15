@@ -22,6 +22,14 @@ playBtn.addEventListener('click', () => {
   }
 });
 
+plusBtn.addEventListener('click', () => {
+  video.currentTime += 5;
+});
+
+minusBtn.addEventListener('click', () => {
+  video.currentTime -= 5;
+});
+
 video.addEventListener('timeupdate', mettreAJour);
 
 rangeInput.addEventListener('input', positionRange);
@@ -29,12 +37,4 @@ rangeInput.addEventListener('input', positionRange);
 video.addEventListener('loadedmetadata', () => {
   rangeInput.value = 0;
   rangeInput.max = 100;
-});
-
-plusButton.addEventListener('click', () => {
-  video.currentTime = Math.min(video.currentTime + 5, video.duration);
-});
-
-minusButton.addEventListener('click', () => {
-  video.currentTime = Math.max(video.currentTime - 5, 0);
 });
